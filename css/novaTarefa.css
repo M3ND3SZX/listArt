@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #A6ADEE;
+}
+
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0% 3%;
+    border-bottom: 2px solid black;
+}
+
+main {
+    display: flex;
+    gap: 30%;
+}
+
+.img {
+    height: 60px;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.logo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.usuarioLogo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+h2 {
+    font-size: 15px;
+    margin-left: 25px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.padding{
+    padding-left: 20vw;
+}
+
+main{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.card-roxo {
+    position: relative; 
+    width: 330px;
+    height: 430px;
+    background-color: #3E447B;
+    border-radius: 10px;
+    margin-top: 25px;
+    z-index: 1; 
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color: white;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+}
+
+.header button {
+    position: absolute;
+    right: 18%;
+    margin-top: -30px;
+}
+
+.header i {
+    font-size: 25px;
+}
+
+.tarefas {
+    margin-top: 40px;
+    width: 85%;
+    margin-left: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulo{
+    color: white;
+    font-family: 'Inter', sans-serif;
+
+}
+.descricao{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    flex-direction: row;
+}
+.dataFinalizacao{
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+input{
+    border-radius: 10px;
+}
+textarea{
+    border-radius: 10px;
+}
+button{
+  height: 40px;
+    background-color: #A6ADEE;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.tarefasPendentes{
+    width: 250px;
+    height: 230px;
+    background-color: #3E447B;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+ul{
+  
+    color: aliceblue;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.tarefasConcluidas{
+    width: 250px;
+    height: 230px;
+    background-color: #3E447B;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+
+section{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+gap: 40px;
+  
+}
+
+
+
+
+

@@ -1,0 +1,26 @@
+{
+    "usuarios": [
+      {
+        "id": 1,
+        "nome": "João da Silva",
+        "email": "joao@silva.com",
+        "senha": "joao",
+        "premium": 1
+      },
+      {
+        "id": 2,
+        "nome": "Maria Salvagni",
+        "email": "maria@salvagni.com",
+        "senha": "maria",
+        "premium": 0
+      },
+      {
+        "id": 3,
+        "nome": "Gabriel Pereira",
+        "email": "gabriel@pereira.com",
+        "senha": "gabriel",
+        "premium": 1
+      }
+    ]
+    
+}

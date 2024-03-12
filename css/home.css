@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #A6ADEE;
+}
+
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0% 3%;
+    border-bottom: 2px solid black;
+}
+
+main {
+    display: flex;
+    gap: 30%;
+}
+
+.img {
+    height: 60px;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.logo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.usuarioLogo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.cardTarefa {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 25%;
+}
+
+.nova-tarefa {
+    width: 230px;
+    height: 230px;
+    background-color: #3E447B;
+    border-radius: 10px;
+    position: relative; 
+    z-index: 1;
+}
+
+.adicionar {     
+    width: 230px;
+    height: 230px;
+    background-color: #3E447B;
+    opacity: 50%;
+    border-radius: 10px;
+    z-index: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%; 
+    left: 50%;
+}
+
+.andamento {
+    width: 230px;
+    height: 230px;
+    background-color: #3E447B;
+    border-radius: 10px;
+}
+
+.concluido {
+    width: 230px;
+    height: 230px;
+    background-color: #3E447B;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 15px;
+    margin-left: 25px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.calendario {
+    width: 730px;
+    height: 730px;
+    background-color: #3E447B;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.padding{
+    padding-left: 20vw;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    border: 3px solid #000;
+    border-radius: 100px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+th {
+    background-color: #A6ADEE;
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+.tbody {
+    color: brown;
+}
+
+.event {
+    background-color: #ff9999;
+}
+
+h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.cardTarefa button{
+    z-index: -1;
+}
